@@ -19,7 +19,7 @@ To get started follow the steps below:
 1. [Install Docker](InstallingDocker.md)
 
 ## Using the DGX machine
-1. Accessing the DGX machine
+1. [Accessing the DGX machine](DGX Station)
 1. Demo on DGX using SimNet
 1. Starting your own ML Project
 
