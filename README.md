@@ -12,10 +12,10 @@ The Machine Learning group workflow will typically consist of the following step
 
 ## Configuring your ANSYS laptop
 To get started follow the steps below:
-1. Install Python
+1. [Install Python](Python Installation.md)
   1. Install Git (optional)
   1. Install your IDE of choice (I like Pycharm).
-1. Install Docker
+1. [Install Docker](Docker Installation.md)
 
 ## Using the DGX machine
 1. Logging in 
