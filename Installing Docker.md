@@ -173,6 +173,5 @@ Now you know how to build and run a Docker container!
 	docker image rm	IMAGE	# removes an image
 	docker image prune		# removes dangling images
 	docker image prune -a		# removes all images
-	docker image tage IMAGE IMAGE 	# tages an image from one image id or tag to a new tag e.g my-app:latest to my-app:1.0.0
-	
+	docker image tage IMAGE IMAGE 	# tages an image from one image id or tag to a new tag e.g my-app:latest to my-app:1.0.0	```	
 
