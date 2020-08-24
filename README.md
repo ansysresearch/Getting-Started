@@ -1,7 +1,6 @@
 # Getting-Started
 
-This repository contains instructions to get started with ANSYS Machine Learning. It is intended to set up and guide
-you through the workflow.
+This repository contains instructions to get started with ANSYS Machine Learning. It is intended to help you with setting up and guide you through the workflow.
 Typically, we use Docker containers or virtual environments to transport our code accross platforms from our local machines to our more computationally powerful remote machines.
 
 The Machine Learning group workflow will typically consist of the following steps:
