@@ -64,7 +64,7 @@ Next you can test the Docker installation with an existing image:
 
 
 ## Quick Tutorial
-A more comprehensive tutorial can be found [here](https://docs.docker.com/get-started/part2/). We will noq show you how 
+A more comprehensive tutorial can be found [here](https://docs.docker.com/get-started/part2/). We will now show you how 
 to **build** and **run** individual containers with an example project given in the Docker tutorial. If you have experience creating containers in Docker feel free to skip this. 
 feel free to skip this. 
 First clone the project from Github:
