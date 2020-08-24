@@ -1,7 +1,7 @@
 # Working on the DGX machine
 
 Part of our compute resources include an [Nvidia DGX machine](https://www.nvidia.com/en-us/data-center/dgx-station/). In this 
-document we will go over connecting and setting up the DGX machine so that you can train and deploy your neural networks on this 
+document we will go over connecting to the DGX machine so that you can train and deploy your neural networks on this 
 powerful machine.
 
 ## Prerequisites
