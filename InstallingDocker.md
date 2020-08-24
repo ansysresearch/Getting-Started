@@ -31,7 +31,7 @@ Images are stored in a Docker registry like [Docker Hub](https://hub.docker.com/
 can use. Alternatively you might create your own images, with a *Dockerfile*. You can also download Dockerfiles from DockerHub and modify 
 them. For example, [tensorflow:latest-gpu-py3-jupyter](https://hub.docker.com/layers/tensorflow/tensorflow/latest-gpu-py3-jupyter/images/sha256-901b827b19d14aa0dd79ebbd45f410ee9dbfa209f6a4db71041b5b8ae144fea5?context=explore) can be used as a base container for our machine learning projects.
 #### Containers
-A container is a runnable instance of an image. You can create, start, stop, move or delete a container witht he Docker API or 
+A container is a runnable instance of an image. You can create, start, stop, move or delete a container with the Docker API or 
 command line interface. A container can be connected to one or more networks and can have storage attached to it. A container is
 defined by its image and configuration options you provide when you create or start is. The container can be for different kind 
 of shipments of the software: Development, Staging or Production.
