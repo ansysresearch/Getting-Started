@@ -23,4 +23,4 @@ ssh -N -f -L localhost:9000:localhost:8888 ansysai@cdcdgx1
 * The `-L` flag specifies the port forwarding configureation (remote port 90000 to local port 8888). 
 
 ## Set up your workspace
-Once you have logged in please make a directory in the homedirectory named after your ANSYS username. 
+Once you have logged in please make a directory in the home directory named after your ANSYS username. 
