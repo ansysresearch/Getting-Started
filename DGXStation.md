@@ -9,7 +9,7 @@ For security purposes accessing the DGX machine requires a VPN connection to one
 do not have your VPN connection from your ANSYS laptop set up yet. 
 
 ## Logging in
-We can ssh into the DGX station through ssh. You can ask your supervisor for the password if you do not know it yet.
+We can connect to the DGX station through ssh. You can ask your supervisor for the password if you do not know it yet.
 ```
 ssh ansysai@cdcdgx1
 ```
