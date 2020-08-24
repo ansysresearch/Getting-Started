@@ -19,7 +19,7 @@ To get started follow the steps below:
 
 ## Using the DGX machine
 1. Accessing the DGX machine
-1. Tutorial using SimNet
+1. Demo on DGX using SimNet
 1. Starting your own ML Project
 
 
