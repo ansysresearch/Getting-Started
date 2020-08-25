@@ -20,7 +20,7 @@ ssh -N -f -L localhost:9000:localhost:8888 ansysai@cdcdgx1
 ```
 * The `-N` flags specifies that no remote commands will be executed and is useful for port forwarding.
 * The `-f` flag will send the ssh process to the background so that local tunnel-enabling terminal remains usable.
-* The `-L` flag specifies the port forwarding configureation (remote port 90000 to local port 8888). 
+* The `-L` flag specifies the port forwarding configuration (remote port 90000 to local port 8888). 
 
 ## Set up your workspace
 Once you have logged in please make a directory in the home directory named after your ANSYS username. 
