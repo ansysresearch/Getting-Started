@@ -18,3 +18,9 @@ Version control is an essential part of any software engineering project.
 3. We strongly encourage you to follow the common [project format](ProjectFormat.md) for your machine learning projects.
 
 ### Additional resources
+(TO BE COMPLETED)
+- If you're using Pytorch, have a look at [Pytorch guidelines](Pytorch.md)
+
+- If you're using Tensorflow, have a look at [Pytorch guidelines](Pytorch.md)
+
+- If you would like to run your code in parallel on multiple CPU cores, have a look at [Parallel guidelines](Parallel.md)
