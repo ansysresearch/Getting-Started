@@ -1,15 +1,9 @@
-# Running python code in Parallel Guideline
+# Faster code guidelines
 
-There are multiple ways you can speed up your python code. We enumerate some of these methods below:
-
-### using `joblib` library
-TBA
-
-### using `mpi4py`
-TBA
-
-### using `Numba` library
-TBA
-
-# using `cython` library
-TBA
+1. avoid using nested loops, if possible.
+2. vectorize your operations
+3. run your code in parallel:
+    - using `joblib` library: examples TBA
+    - using `mpi4py`library: examples TBA
+    - using `Numba` library: examples TBA
+4. Use `cython` library: examples TBA
