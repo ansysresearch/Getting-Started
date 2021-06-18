@@ -15,6 +15,6 @@ A significant portion of machine learning development at Ansys takes place in Py
 Version control is an essential part of any software engineering project.
 1. At Ansys we use Git for version control.  To install Git, follow the instruction [Install Git](InstallGit.md).
 2. To share your code with others, interns can use our [Ansys Research Github](https://github.com/ansysresearch).
-3. We strongly encourage you to follow the common [repository format](RepositoryFormat.md) for your machine learning projects.
+3. We strongly encourage you to follow the common [project format](ProjectFormat.md) for your machine learning projects.
 
 ### Additional resources
