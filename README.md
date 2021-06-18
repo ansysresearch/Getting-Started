@@ -21,6 +21,6 @@ Version control is an essential part of any software engineering project.
 (TO BE COMPLETED)
 - If you're using Pytorch, have a look at [Pytorch guidelines](Pytorch.md)
 
-- If you're using Tensorflow, have a look at [Pytorch guidelines](Pytorch.md)
+- If you're using Tensorflow, have a look at [Tensorflow guidelines](Pytorch.md)
 
 - If you would like to run your code in parallel on multiple CPU cores, have a look at [Parallel guidelines](Parallel.md)
