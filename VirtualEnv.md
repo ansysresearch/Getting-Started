@@ -9,5 +9,7 @@ To install `Miniconda`, please refer to [Install Python](InstallingPython.md) in
 - `conda deactivate SDF_Project` deactivates the environment.
 - `conda env remove --n SDF_Project` deletes the environment.
 - `conda env list` prints a list of available environments.
-You can find other conda commands [here](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html)
+
+You can find other conda commands [here](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html).
+
 To install a new library, you can use `pip` or `conda`. It is highly recommended to use a `pip`-only/ `conda`-only approach, meaning that you want  to use one of these methods to install your needed libraries.

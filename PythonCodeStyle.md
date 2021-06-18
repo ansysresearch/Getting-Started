@@ -1,10 +1,10 @@
 # Python Code Style
 
-At Ansys, we encourage you to follow PEP8 code style. Below, you can find some of most important guidelines. Additional examples can be found at [here](https://www.python.org/dev/peps/pep-0008/).
+At Ansys, we encourage you to follow PEP8 coding style. Below, you can find some of most important guidelines. Additional examples can be found at [here](https://www.python.org/dev/peps/pep-0008/).
 
 - Naming Conventions:
     - Choose meaningful names for your variables.
-    - Use lower_case_with_underscore convection for variables and function names.
+    - Use lower_case_with_underscore convection for variable and function names.
 	- Use CAPTITAL convection to define constants.
 	- Use CamelCase convention for classes.
 
@@ -31,13 +31,13 @@ At Ansys, we encourage you to follow PEP8 code style. Below, you can find some o
 - Whitespace:
     - use whitespace before and after operation like `+, -, /, *, =, ==, <, >, +=` unless inside function arguments.
     - use whitespace after comma `,`.
-    -avoid using whitespace in calling functions or indexing.
+    - avoid using whitespace before open parenthesis/brackets when calling functions or indexing list.
 
     ```python
     # bad examples
     spam( ham[ 1 ], { eggs: 2 } )  #unneccesary whitespace
     print (1)  #unneccesary whitespace
-    dct ['key'] = lst [index]  #unneccesary
+    dct ['key'] = lst [index]  #unneccesary whitespace
     i=i*3  #necessary whitespace
     np.sum(x, axis = 1)  #unnecessary whitespace
 
@@ -72,8 +72,26 @@ At Ansys, we encourage you to follow PEP8 code style. Below, you can find some o
 
 	```
 
-When developing code,
-	- choose meaningful self-explanatory naming convention for your variables/functions/classes. 
 	- when designing functions:
 		- each function shall do one and only one thing.
+		- functions should not have side effects.
 		- if you find yourself with functions with lots of arguments, chances are you can refactor your code, e.g. use classes.
+
+		```python
+		# bad example
+		full_file_name = parent_dir + "/" + file_name
+
+		# good example
+		full_file_name = os.path.join(parent_dir, file_name)
+
+		# bad example
+		data_folder = "C:/Users/amaleki/data/"
+
+		# better example, assuming args hold the arguments passed to the program
+		data_folder = args.data_folder
+
+		# create a folder if it does not exist
+		if not os.path.isdir(parent_folder):
+			os.makesdir(parent_folder)
+
+		```
